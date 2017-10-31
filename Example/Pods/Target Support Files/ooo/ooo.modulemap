@@ -1,0 +1,6 @@
+framework module ooo {
+  umbrella header "ooo-umbrella.h"
+
+  export *
+  module * { export * }
+}
