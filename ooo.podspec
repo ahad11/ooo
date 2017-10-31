@@ -10,9 +10,10 @@ Pod::Spec.new do |s|
 s.description      = 'rfhunfwomefkkrrfjjjjjfjojfnjvf'
 
   s.homepage         = 'https://github.com/ahad11/ooo'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+ 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ahad11' => 'aalarifi64@gmail.com' }
+  s.source           = { :git => 'https://github.com/ahad11/ooo.git', :tag => s.version.to_s }
 
 
   s.ios.deployment_target = '8.0'
